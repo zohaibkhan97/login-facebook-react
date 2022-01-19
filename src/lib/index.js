@@ -1,4 +1,3 @@
-import './components/styles/styles.css';
-import LoginFacebookReact from './components/LoginFacebookReact';
+import LoginFacebookReact from "./components/LoginFacebookReact"
 
-export default LoginFacebookReact;
+export default LoginFacebookReact
