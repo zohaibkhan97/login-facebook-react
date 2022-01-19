@@ -1,16 +1,21 @@
 {
   "name": "login-facebook-react",
-  "description": "Two test React components",
+  "description": "React facebook login",
   "author": "zohaib khan",
   "keywords": [
     "react",
     "components",
-    "ui"
+    "ui",
+    "Facebook",
+    "Facebook login",
+    "fb",
+    "fb login"
   ],
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
+  "license": "MIT",
   "files": [
     "dist",
     "README.md"

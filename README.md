@@ -3,12 +3,12 @@
 # Installation
 
 ```
-
 npm install login-facebook-react --save
-
 ```
 
 # Usage
+
+Your app must be running on https
 
 ```js
 import React from "react"
@@ -21,9 +21,9 @@ export default function App() {
   return (
     <LoginFacebookReact
       iconSize={30}
-      appId={"238809965055005"}
-      redirectUrl={"https://localhost:3000/"}
-      appSecret={"acbd79f28c589a23d48331ab05456d86"}
+      appId={"Your app id"}
+      redirectUrl={"Your redirect url"}
+      appSecret={"Your app secret"}
       fields="email,first_name,last_name,picture.type(large)"
       responseFacebook={responseFacebook}
     />
