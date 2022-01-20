@@ -1,0 +1,21 @@
+.fb-login-btn {
+  color: #fff;
+  background-color: #3b5998;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+}
+.fb-login-btn > span {
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+.fb-login-icon {
+  color: #3b5998;
+}
+
+.login-link-fb {
+  text-decoration: none;
+}
